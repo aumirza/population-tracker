@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   Chart,
@@ -49,6 +50,8 @@ export const Map = () => {
   const options: ChartWrapperOptions["options"] = {
     region: "IN",
     domain: "IN",
+    title: "Population of India",
+    legend: { textStyle: { color: "blue", fontSize: 16 } },
     displayMode: "regions", //'regions',
     resolution: "provinces",
     colorAxis: { colors: ["#00b21c", "#00853f", "#e31b23"] },
@@ -68,7 +71,7 @@ export const Map = () => {
   ];
 
   return (
-    <div className="map-wrapper">
+    <div className="h-96">
       <Chart
         options={options}
         height={"100%"}

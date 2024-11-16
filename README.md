@@ -1,24 +1,7 @@
-# React with Bun runtime
+# Population Tracker
 
-This is a React project bootstrapped with [bun](https://bun.sh/).
+App to visualize the population of india according to census data.
 
-## Getting Started
+## Todo
 
-### Cloning the repo
-
-```sh
-bun create react ./react-bun-app
-```
-
-### Development
-
-First, run the development server.
-
-```
-bun dev
-```
-
-Open http://localhost:3000 with your browser to see the result.
-
-You can start editing the page by modifying src/App.jsx. The page auto-updates as you edit the file.
-
+    [ ]
